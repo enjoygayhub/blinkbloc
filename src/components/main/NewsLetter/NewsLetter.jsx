@@ -23,9 +23,10 @@ function NewsLetter() {
       <div className="newsletter__form">
         <div className='newsletter__subtitle'>Enter the diamond you have earned on TikTok</div>  
         <input ref={inputRefs} onChange={handleChange} className="newsletter__input" type="number" placeholder='diamond number' />
-        <button className="newsletter__btn" onClick={handleClick}>Calculator Earning</button>
+        <button className="newsletter__btn" onClick={handleClick}>Calculate Earning</button>
         {count?<div className='newsletter__subtitle'>Your Estimated Earnings: <span>USD $</span>  {count} </div>:null}
       </div>
+      <a className='my-link link-btn' to="https://forms.gle/J8wgcig2WnTaXDro6">JOIN US</a>
     </section>
   )
 }

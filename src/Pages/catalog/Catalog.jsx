@@ -10,7 +10,7 @@ function Catalog( ) {
       <div className="catalog-header">
         <h2>Creator Growth Program</h2>
         <p>Our Creator Growth Program is dedicated to supporting and elevating live creators on TikTok. This program provides personalized guidance tailored to your unique needs and goals. We understand that every creator is different, which is why we offer individualized coaching and mentorship to help you develop a distinct content strategy that resonates with your audience. Our experienced team will work closely with you to optimize your livestreams, enhance your engagement, and boost your follower growth.</p>
-        <a className='my-link link-btn'>JOIN US</a>
+        <a className='my-link link-btn' to="https://forms.gle/J8wgcig2WnTaXDro6">JOIN US</a>
       </div>
       <div className='catalog-body'>
         <h2 className='orange'>What We Offer</h2>
@@ -70,6 +70,7 @@ function Catalog( ) {
         <p className='ans' >You can contact us through our website's contact form or email us at <span className="orange">contact@sunnrise.net</span>  Our team is here to answer any questions and provide further information about the Creator Growth Program.</p>
       </div>
       <NewsLetter />
+      
     </section>
   );
 }

@@ -1,11 +1,22 @@
 import React from 'react'
 import './_main.scss'
-
+import { useNavigate } from "react-router-dom";
 import NewsLetter from './NewsLetter/NewsLetter'
 // import Video from '../header/Video.jsx'
 // import Trending from './Trending/Trending.jsx'
 
-function Main() {  
+function Main() {
+  
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/management');
+  }
+
+  const agentClick = () => {
+    navigate('/agent');
+  }
+
   return (
     <main className="main">
         <section className='home-bg'>
@@ -18,8 +29,8 @@ function Main() {
           The Official TikTok Live Agency. We offer personalized 1-on-1 coaching and operational support to help you unlock your full potential.
           </p>
           <div className='btn-container'>
-            <div className='btn'>I'm a Creator</div>
-            <div className='btn'>I'm a Agent</div>
+            <div className='btn' onClick={handleClick}>I'm a Creator</div>
+            <div className='btn' onClick={agentClick}>I'm a Agent</div>
           </div>
         </section>
         
@@ -35,7 +46,7 @@ function Main() {
                 <p>Operational Support</p>
                 <p>Community Building</p>
                 <p>Incentives and Rewards</p>
-                <a className="my-link link-btn" to="https://forms.gle/J8wgcig2WnTaXDro6">Learn More</a>
+                <span className="my-link link-btn" onClick={handleClick}>Learn More</span>
               </div>  
               </div>
               
@@ -48,7 +59,7 @@ function Main() {
                 <p>Comprehensive training</p>
                 <p>Local resource</p>
                 <p>Experienced Team</p>
-                <a className="my-link link-btn" to="https://forms.gle/J8wgcig2WnTaXDro6">Learn More</a>
+                <span className="my-link link-btn" onClick={handleClick}>Learn More</span>
               </div>
               </div>
               
