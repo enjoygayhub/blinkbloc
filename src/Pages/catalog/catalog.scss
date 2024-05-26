@@ -1,0 +1,99 @@
+@import '../../mixin';
+
+.catalog {
+    background: url("../../components/assets/management.jpg") no-repeat center top;
+    background-size: 100% 70vh;   
+
+    .catalog-header{
+        position: relative;
+        padding-top: 100px;
+        backdrop-filter: blur(2px);
+        background: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        height: 70vh;
+        
+        p{
+            margin: 50px 0;
+        }
+    }
+    .catalog-body{
+        padding-bottom: 80px;
+    }
+    .card-box{
+        display: flex;
+        height: 450px;
+        justify-content: center;
+        align-items: center;
+
+
+        .card{
+            width: 670px;
+            height: 430px;
+            border-radius: 20px;
+            position: relative;
+            margin: 0 20px;
+            &::after{
+                content: '';
+                position: absolute;
+                height: inherit;
+                width: 100%;
+                
+                z-index: -1;
+                border-radius: 20px;
+                left: -20px;
+                top: 20px;
+                background-image: linear-gradient(to right, #ebac64 0%, #f7f3c8 100%);
+            }
+        }
+        .text{
+            width: 1000px;
+            height: 430px;
+            margin: 0 20px;
+            padding-top: 200px;
+        }
+        h3{
+            font-weight: 700;
+            font-style: normal;
+            font-size: 48px;
+            color: #FFFFFF;
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+    }
+    
+    .card2{
+        background: url("../../components/assets/card2.jpg") no-repeat center/cover;
+    }
+
+    .card3{
+        background: url("../../components/assets/card3.jpg") no-repeat center/cover;
+    }
+    .card4{
+        background: url("../../components/assets/card4.jpg") no-repeat center/cover;
+    }
+    .card5{
+        background: url("../../components/assets/card5.jpg") no-repeat center/cover;
+    }
+    .card6{
+        background: url("../../components/assets/card6.jpg") no-repeat center/cover;
+    }
+   .catalog-footer{
+    background-color: #333;
+    padding: 80px;
+
+    .question{
+        color: #FFF;
+        text-align: left;
+        line-height: 1.5;
+    }
+    .ans{
+        color: #999;
+        
+        text-align: left;
+        line-height: 1.5;
+        margin-bottom: 50px;
+    }
+   }
+}
