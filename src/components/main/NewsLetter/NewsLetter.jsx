@@ -26,7 +26,7 @@ function NewsLetter() {
         <button className="newsletter__btn" onClick={handleClick}>Calculate Earning</button>
         {count?<div className='newsletter__subtitle'>Your Estimated Earnings: <span>USD $</span>  {count} </div>:null}
       </div>
-      <a className='my-link link-btn' to="https://forms.gle/J8wgcig2WnTaXDro6">JOIN US</a>
+      <a className='my-link link-btn' target='blank' href="https://forms.gle/J8wgcig2WnTaXDro6">JOIN US TODAY</a>
     </section>
   )
 }

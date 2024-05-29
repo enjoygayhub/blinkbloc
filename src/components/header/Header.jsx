@@ -19,9 +19,8 @@ const Header = () => {
 
     return (  
         <header className="header">
-            <div  className={`container flex-container is-open-container`}>
+            <div  className={`container flex-container`}>
                 <div className="logo header_logo">
-
                     <Link to='./'>SUNNRISE</Link>
                 </div>
                 <nav className="nav">
@@ -30,7 +29,7 @@ const Header = () => {
                         <li className={menu =="Management"?"select":''} onClick={()=>{setMenu("Management")}} ><Link  to='./management'>Creator Management</Link></li>
                         <li className={menu =="Agent"?"select":''} onClick={()=>{setMenu("Agent")}} ><Link  to='./agent'>Creator Agent</Link></li>
                         <li className={menu =="about"?"select":''} onClick={()=>{setMenu("about")}} ><Link to='./about'>About Us</Link></li>
-                        <a className="my-link" to="https://forms.gle/J8wgcig2WnTaXDro6">Join Sunnrise</a>
+                        <a className="my-link join" target="_blank" href="https://forms.gle/J8wgcig2WnTaXDro6">Join Sunnrise</a>
                     </ul>
                 </nav>                
             </div>

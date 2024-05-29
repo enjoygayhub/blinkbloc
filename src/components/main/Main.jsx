@@ -66,7 +66,7 @@ function Main() {
             </div>
           </div>
           <h2>Contact Us</h2>
-          <p>Want to know more about SUNNRISE, feel free to contact us</p>
+          <p>Want to know more about SUNNRISE, feel free to contact us:</p>
         </section>      
         
     </main>

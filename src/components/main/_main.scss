@@ -5,7 +5,7 @@
 //   height: 100vh;
   overflow: hidden;
   background: url("../assets/home-bg.jpg") no-repeat 0 0;
-  background-size: 100% 100vh;
+  background-size: 100vw 100vh;
   
   .home-bg {
     position: relative;
@@ -17,8 +17,8 @@
     padding-top: 100px;
 
     .logo-icon {
-        height: 124px;
-        width: 124px;
+        height: 10rem;
+        width: 10rem;
         background: url("../assets/log.png") no-repeat center/contain;
         border-radius: 50%;
         margin: 0 20px;
@@ -26,8 +26,8 @@
     .big-title {
       font-weight: 700;
       font-style: normal;
-      font-size: 96px;
-      margin: 94px 0 30px 0;
+      font-size: 6rem;
+      margin: 6rem 0 30px 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -36,26 +36,24 @@
     .inner-p{
         position: relative;
         margin: auto;
-        width: 1200px;
-        padding: 30px ;
+        padding: 2rem;
     }
 
     .btn-container{
         display: flex;
         justify-content: center;
-        margin: 100px 0;
+        margin: 6rem 0;
 
         .btn{
             position: relative;
-           
             height: 62px;
-            width: 320px;
+            width: 20rem;
             line-height: 62px;
             text-align: center;
             background: #fff;
             color: black;
             font-weight: 700;
-            font-size: 26px;
+            font-size: 1.6rem;
             box-shadow: 4px 4px 8px 0px rgba(255, 255, 0, 0.4);
             border-radius: 32px;
             text-decoration: none;
@@ -78,21 +76,21 @@
         justify-content: space-around;
     }
     .card{
-        width: 810px;
+        width: 760px;
         height: 416px;
         position: relative;
         overflow: hidden;
-        margin: 80px 0;
+        margin-top: 80px;
         // filter: brightness(0.5);
         p {
             display: inline-block;
             width: 50%;
             margin: 20px 0;
-            font-size: 24px;
+            font-size: 1.6rem;
         }
 
-        a {
-            margin: 20px 0;
+        span {
+            margin-top: 48px;
         }
     }
     .card1{

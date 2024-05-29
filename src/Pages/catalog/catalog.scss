@@ -1,6 +1,8 @@
 @import '../../mixin';
 
 .catalog {
+    width: 100%;
+    overflow: hidden;
     background: url("../../components/assets/management.jpg") no-repeat center top;
     background-size: 100% 70vh;   
 
@@ -13,7 +15,10 @@
         height: 70vh;
         
         p{
-            margin: 50px 0;
+            margin: 4rem 0;
+        }
+        a {
+            margin: 4rem 0;
         }
     }
     .catalog-body{
@@ -21,13 +26,13 @@
     }
     .card-box{
         display: flex;
-        height: 450px;
+        // height: 450px;
         justify-content: center;
         align-items: center;
 
 
         .card{
-            width: 670px;
+            width: 42rem;
             height: 430px;
             border-radius: 20px;
             position: relative;
@@ -44,17 +49,21 @@
                 top: 20px;
                 background-image: linear-gradient(to right, #ebac64 0%, #f7f3c8 100%);
             }
+            @media screen and (width< 480px) {
+                display: none;
+                
+            }
         }
         .text{
             width: 1000px;
-            height: 430px;
-            margin: 0 20px;
-            padding-top: 200px;
+            height: 25rem;
+            margin: 20px;
+            // padding-top: 200px;
         }
         h3{
             font-weight: 700;
             font-style: normal;
-            font-size: 48px;
+            font-size: 2.5rem;
             color: #FFFFFF;
             text-align: left;
         }
@@ -81,7 +90,7 @@
     }
    .catalog-footer{
     background-color: #333;
-    padding: 80px;
+    padding: 20px;
 
     .question{
         color: #FFF;

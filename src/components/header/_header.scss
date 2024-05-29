@@ -3,8 +3,9 @@
     position: fixed;
     z-index: 11;
     width: 100%;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 30px;   
+    // margin-bottom: 30px;   
 
     .is-open-container {
         @include breakpoint('lg') {
@@ -39,7 +40,7 @@
     }
 
     &_logo {
-        margin-left: 25px;     
+        margin-left: 60px;     
         
         @include breakpoint ('xxs') {
             margin-left: 0;

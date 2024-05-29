@@ -2,7 +2,7 @@
 
 .agent {
   width: 100%;
-  min-height: 100vh;
+  // min-height: 100vh;
   overflow: hidden;
   background: url("../../components/assets/agent.jpg") no-repeat 0 0;
   background-size: 100% 70vh;
@@ -14,27 +14,27 @@
     background: rgba(0, 0, 0, 0.5);
 
     .agent-title {
-      margin-top: 200px;
+      margin-top: 15rem;
     }
     .agent-text {
       position: relative;
-      margin: 40px auto;
+      margin: 6rem auto;
       color: aliceblue;
-      width: 1200px;
-      padding: 30px;
+      
+      padding: 0 2rem;
     }
   }
   .agent-body {
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
     .card {
-      height: 846px;
-      width: 736px;
-      margin: 0 20px;
-      padding: 0 80px;
+      // height: 846px;
+      width: 628px;
+      margin: 20px;
+      padding: 0 4rem 5rem 4rem;
         border-radius: 20px;
         border: 2px solid #EA8D3D;
       p{
@@ -46,18 +46,18 @@
       }
       li{
         line-height: 1.5;
-        font-size: 24px;
+        font-size: 1.5rem;
       }
     }
   }
   .agent-foot{
     text-align: left;
-    padding: 0 180px;
+    padding: 0 4rem;
     margin-bottom: 180px;
     li{
         line-height: 1.5;
-        font-size: 24px;
-        padding-left: 40px;
+        font-size: 1.5rem;
+        padding-left: 2rem;
       }
     p{
         text-align: left;
