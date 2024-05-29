@@ -67,6 +67,7 @@ function Main() {
           </div>
           <h2>Contact Us</h2>
           <p>Want to know more about SUNNRISE, feel free to contact us:</p>
+          <p>contact@sunnrise.net</p>
         </section>      
         
     </main>

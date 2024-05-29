@@ -26,13 +26,13 @@ export const Footer = () => {
                     </Link>
                 </div>
                 <div className="footer__icons-holder">
-                    <Link to='https://www.facebook.com/'>
+                    <Link to='https://www.facebook.com/profile.php?id=61559805406288&mibextid=LQQJ4d'>
                         <img src={fcbkIcon} alt="facebook icon" />           
                     </Link>
                 </div>
                 <div className="footer__icons-holder">
-                    <Link to='https://www.pinterest.com/'>
-                        <img src={pintIcon} alt="pinterest icon" />         
+                    <Link to='https://www.tiktok.com/@sunnrise.liveagency?_t=8mcVJpzwWS3&_r=1'>
+                        <img src={pintIcon} alt="tiktok icon" />         
                     </Link>
                 </div>
             </div>

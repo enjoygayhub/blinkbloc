@@ -4,7 +4,7 @@
   width: 100%;
   // min-height: 100vh;
   overflow: hidden;
-  background: url("../../components/assets/agent.jpg") no-repeat 0 0;
+  background: url("../../components/assets/agent-bg.jpg") no-repeat 0 0;
   background-size: 100% 70vh;
 
   .agent-head {
@@ -32,6 +32,7 @@
     text-align: left;
     .card {
       // height: 846px;
+      min-height: 968px;
       width: 628px;
       margin: 20px;
       padding: 0 4rem 5rem 4rem;

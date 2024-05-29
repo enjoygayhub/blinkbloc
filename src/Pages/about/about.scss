@@ -20,6 +20,7 @@
     }
     .room-img {
         height: 50vh;
-        background: url('../../components/assets/about.jpg') no-repeat center/cover;
+        margin-bottom: 20px;
+        background: url('../../components/assets/room.jpeg') no-repeat center/contain;
     }
 }
