@@ -156,6 +156,9 @@
         //         background-color: #fff;
         //     }
         // }
+        .join:hover{
+            color: #fff;
+        }
 
         hr {
             margin-top: 5px ;
@@ -199,27 +202,7 @@
             
         }        
 
-        &__cart-count {
-            width: 20px;
-            height: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: -20px;
-            margin-left: -30px;
-            border-radius: 11px;
-            font-size: 14px;
-            background-color: #E5CBA0;
-            color: #000;
-        }
-
-        &__is-open-cart {
-            @include breakpoint('lg')  {
-                margin-top: -56px;
-                margin-left: 29px;
-                margin-bottom: 20px;
-            }
-        }   
+          
     }
 }
 
