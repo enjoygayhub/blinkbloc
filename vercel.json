@@ -1,0 +1,21 @@
+{
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/management",
+            "destination": "/index.html/management"
+        },
+        {
+            "source": "/about",
+            "destination": "/index.html/about"
+        },
+        {
+            "source": "/agent",
+            "destination": "/index.html/agent"
+        }
+    ]
+    
+}
