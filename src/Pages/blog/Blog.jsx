@@ -9,7 +9,7 @@ function Blog() {
       <div className="agent-head">
         <h2 className="agent-title">Creator Agent Program</h2>
         <p className='agent-text'>Do you want to earn big on TikTok. We offer competitive industry commissions and a wealth of resources for nurturing hosts, with top performers earning thousands of dollars a month in commissions. Join us today!</p>
-        <a className="my-link link-btn" to="https://forms.gle/P4Aoi7nQ98Wcgzgj7">JOIN US</a>
+        <a className="my-link link-btn" target='blank' href="https://forms.gle/P4Aoi7nQ98Wcgzgj7">JOIN US</a>
       </div>
       <div className='agent-body'>
         <div className='card'>
