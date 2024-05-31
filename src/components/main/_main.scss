@@ -36,7 +36,7 @@
     .inner-p{
         position: relative;
         margin: auto;
-        padding: 2rem;
+        padding: 2rem 6rem;
     }
 
     .btn-container{
@@ -69,6 +69,9 @@
 
   .article-section{
     margin-bottom: 120px;
+    .inner-p{
+        padding: 0 6rem;
+    }
     .who{
         margin: 80px 0 20px 0;
     }
@@ -77,7 +80,7 @@
     }
     .card{
         width: 760px;
-        height: 416px;
+        height: 426px;
         position: relative;
         overflow: hidden;
         margin-top: 80px;
@@ -90,7 +93,7 @@
         }
 
         span {
-            margin-top: 48px;
+            margin-top: 24px;
         }
     }
     .card1{

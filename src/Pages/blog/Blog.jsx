@@ -11,7 +11,7 @@ function Blog() {
         <p className='agent-text'>Do you want to earn big on TikTok. We offer competitive industry commissions and a wealth of resources for nurturing hosts, with top performers earning thousands of dollars a month in commissions. Join us today!</p>
         <a className="my-link link-btn" to="https://forms.gle/P4Aoi7nQ98Wcgzgj7">JOIN US</a>
       </div>
-      <div className='agent-body flex-container'>
+      <div className='agent-body'>
         <div className='card'>
           <h2>Agent</h2>
           <p className='orange'>What You Need To Do?</p>
@@ -54,7 +54,7 @@ function Blog() {
           </li>
           <li>For agent pros, in addition to recruitment training, we will provide training on how to manage and train creators. More comprehensive training information and resources will be offered to support them.</li>
         </ul>
-        <p className='orange'>1.	Can I see the creators' data myself?</p>
+        <p className='orange'>3.	Can I see the creators' data myself?</p>
         <ul>
           <li>Agents can directly view the live streaming data of the creators they have recruited through the TikTok Live backstage.</li>
         </ul>

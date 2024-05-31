@@ -10,7 +10,7 @@ function Catalog( ) {
       <div className="catalog-header">
         <h2>Creator Growth Program</h2>
         <p>Our Creator Growth Program is dedicated to supporting and elevating live creators on TikTok. We understand that every creator is different, which is why we offer individualized coaching and mentorship to help you develop a distinct content strategy that resonates with your audience.</p>
-        <a className='my-link link-btn' to="https://forms.gle/J8wgcig2WnTaXDro6">JOIN US</a>
+        <a className='my-link link-btn' target='blank' href="https://forms.gle/J8wgcig2WnTaXDro6">JOIN US</a>
       </div>
       <div className='catalog-body'>
         <h2 className='orange'>What We Offer</h2>
@@ -54,19 +54,19 @@ function Catalog( ) {
       </div>
       <div className='catalog-footer'>
         <h2 className="orange">FAQS</h2>
-        <p className='question'>1. Do I need to pay to join the Creator Growth Program?</p>
+        <p className='question orange'>1. Do I need to pay to join the Creator Growth Program?</p>
         <p className='ans' >No, joining the Creator Growth Program is <span className="orange">totally free</span> for selected creators. We invest in your growth and success, providing you with the tools and support you need to thrive on TikTok.</p>
-        <p className='question'>2. How does the rewards program work?</p>
+        <p className='question orange'>2. How does the rewards program work?</p>
         <p className='ans' >Our rewards program recognizes and celebrates your achievements. You can earn rewards such as <span className="orange">livestreaming equipment, virtual gifts, and exclusive promotional opportunities</span> based on your performance and engagement. Details on how to earn and redeem rewards will be provided upon joining.</p>
-        <p className='question'>3. What if I my account get banned on TikTok?</p>
+        <p className='question orange'>3. What if I my account get banned on TikTok?</p>
         <p className='ans' >Our team will <span className="orange">contact TikTok officials directly</span> to help you appeal to the ban issue.</p>
-        <p className='question'>4. How can SUNNRISE help me grow my audience on TikTok?</p>
+        <p className='question orange'>4. How can SUNNRISE help me grow my audience on TikTok?</p>
         <p className='ans' >We offer personalized content strategy development, tips for optimizing your livestreams, and strategies for increasing engagement. Additionally, our community of creators provides a platform for networking and sharing best practices.</p>
-        <p className='question'>5. What is expected of me as a member of the Creator Growth Program?</p>
+        <p className='question orange'>5. What is expected of me as a member of the Creator Growth Program?</p>
         <p className='ans' >We expect you to be active and committed to your growth as a creator. This includes participating in coaching sessions, engaging with the community, and consistently going live on TikTok. Specific expectations will be discussed upon joining the program.</p>
-        <p className='question'>6. Can I still join if I am a new creator with a small following?</p>
+        <p className='question orange'>6. Can I still join if I am a new creator with a small following?</p>
         <p className='ans' >Absolutely! Our program is designed to support creators at all stages of their journey. Whether you are just starting out or looking to take your content to the next level, we provide the guidance and resources you need to grow.</p>
-        <p className='question'>7. How do I contact SUNNRISE for more information?</p>
+        <p className='question orange'>7. How do I contact SUNNRISE for more information?</p>
         <p className='ans' >You can contact us through our website's contact form or email us at <span className="orange">contact@sunnrise.net</span>  Our team is here to answer any questions and provide further information about the Creator Growth Program.</p>
       </div>
       <NewsLetter />

@@ -36,7 +36,7 @@ function Main() {
         
         <section className="article-section">
           <h2 className='orange who'>Who Are We</h2>
-          <p>SUNNRISE Creator Network is the premier TikTok live creator network based in LA, dedicated to unleashing every creator's potential. By joining SUNNRISE, you'll gain access to all the resources and support needed to elevate your live streaming career. We're committed to helping you achieve your goals and become a top creator on TikTok!</p>
+          <p className='inner-p'>SUNNRISE Creator Network is the premier TikTok live creator network based in LA, dedicated to unleashing every creator's potential. By joining SUNNRISE, you'll gain access to all the resources and support needed to elevate your live streaming career. We're committed to helping you achieve your goals and become a top creator on TikTok!</p>
           <div className='cards flex-container'>
             <div className="card card1">
               <div className='backdrop'>

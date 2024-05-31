@@ -16,11 +16,14 @@
     }
 
     .about-title{
-        margin: 16rem 0;
+        margin: 12rem 0;
     }
     .room-img {
         height: 50vh;
         margin-bottom: 20px;
         background: url('../../components/assets/room.jpeg') no-repeat center/contain;
+    }
+    p {
+        padding: 2rem;
     }
 }
