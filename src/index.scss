@@ -45,6 +45,12 @@ body {
   }
 }
 
+@media (min-resolution: 2dppx) {
+  /* 在高DPI屏幕上调整字体大小 */
+  html {
+    font-size: 12px; 
+  }
+}
 
 // #root {
 //   height: 100vh;
