@@ -44,13 +44,13 @@ body {
     font-size: 16px;
   }
 }
-
-@media (min-resolution: 2dppx) {
-  /* 在高DPI屏幕上调整字体大小 */
+// 在高DPI屏幕上且宽度大于1280px的屏幕上设为10px
+@media screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   html {
-    font-size: 12px; 
+    font-size: 12px;
   }
 }
+
 
 // #root {
 //   height: 100vh;
