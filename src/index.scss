@@ -24,32 +24,27 @@ body {
     font-size: 13px;         
   }
 }
-
-@media screen and (300px <= width <= 720px) {
-  body {
-    font-size: 10px;         
-  }
-  html{
-    font-size: 10px;  
+// 设置媒体查询，屏幕宽度低于720像素时，设置字体大小为10px
+@media screen and (max-width: 560px) {
+  html {
+    font-size: 10px;
   }
 }
 
-@media screen and (720px < width <= 1280px) {
-  body {
-    font-size: 12px;         
-  }
-  html{
-    font-size: 12px;  
+// 设置媒体查询，屏幕宽度在720像素到1280像素之间时，设置字体大小为12px
+@media screen and (min-width: 560px) and (max-width: 1280px) {
+  html {
+    font-size: 12px;
   }
 }
-@media screen and (width > 1280px) {
-  body {
-    font-size: 16px;         
-  }
-  html{
-    font-size: 16px;  
+
+// 设置媒体查询，屏幕宽度超过1280像素时，设置字体大小为16px
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 16px;
   }
 }
+
 
 // #root {
 //   height: 100vh;
@@ -235,6 +230,7 @@ button::-moz-focus-inner {
     transition: ease-in-out 0.3s;
     &:hover{
       box-shadow: 0px 0px 6px 8px rgb(236, 216, 148);
+      color: #fff;
     }
   }
 }
