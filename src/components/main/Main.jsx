@@ -18,8 +18,8 @@ function Main() {
   }
 
   return (
-    <main className="main">
-        <section className='home-bg'>
+    <section className="main">
+        <div className='home-bg'>
           <div className='big-title'>
             <div className='logo-icon'></div>
             <h1>Sunnrize</h1>
@@ -32,9 +32,9 @@ function Main() {
             <div className='btn' onClick={handleClick}>I'm a Creator</div>
             <div className='btn' onClick={agentClick}>I'm a Agent</div>
           </div>
-        </section>
+        </div>
         
-        <section className="article-section">
+        <div className="article-section">
           <h2 className='orange who'>Who Are We</h2>
           <p className='inner-p'>SUNNRISE Creator Network is the premier TikTok live creator network based in LA, dedicated to unleashing every creator's potential. By joining SUNNRISE, you'll gain access to all the resources and support needed to elevate your live streaming career. We're committed to helping you achieve your goals and become a top creator on TikTok!</p>
           <div className='cards flex-container'>
@@ -68,9 +68,9 @@ function Main() {
           <h2>Contact Us</h2>
           <p>Want to know more about SUNNRISE, feel free to contact us:</p>
           <p>contact@sunnrise.net</p>
-        </section>      
+        </div>      
         
-    </main>
+    </section>
   )
 }
 
